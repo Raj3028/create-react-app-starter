@@ -22,9 +22,7 @@
   </a>
 </p>
 
-<!-- [TABLE OF CONTENTS](https://github.com/eli64s/readme-ai/edit/main/README.md#-features) -->
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Contents</summary>
 
