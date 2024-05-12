@@ -96,7 +96,7 @@ Make sure to have a repository URL or local directory path ready for the CLI.
 
 ## 👾 Deployment
 
-Deployment Link : <a href="https://create-react-app-starter.netlify.app/" target="_blank"><b>Link</b></a>
+Deployment Link : [Link](https://create-react-app-starter.netlify.app/)
 
 ---
 
