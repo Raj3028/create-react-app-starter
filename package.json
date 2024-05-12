@@ -1,7 +1,7 @@
 {
   "name": "@raj3028/create-react-app-starter",
   "title": "create-react-app-starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Streamline your React projects with our powerful CLI tool, simplifying development and unleashing your creativity.",
   "bin": "./bin/cli.mjs",
   "author": "Rajesh",
