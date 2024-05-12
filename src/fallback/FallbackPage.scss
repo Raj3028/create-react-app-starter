@@ -1,0 +1,29 @@
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F72C1D;
+}
+
+.dashboard-button{
+    background-color: #F7941D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
