@@ -1,6 +1,6 @@
 {
   "name": "@raj3028/create-react-app-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Streamline your React projects with our powerful CLI tool, simplifying development and unleashing your creativity.",
   "bin": "./bin/cli.js",
   "license": "MIT",
