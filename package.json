@@ -1,13 +1,29 @@
 {
   "name": "@raj3028/create-react-app-starter",
+  "title": "create-react-app-starter",
   "version": "1.0.3",
   "description": "Streamline your React projects with our powerful CLI tool, simplifying development and unleashing your creativity.",
-  "bin": "./bin/cli.js",
+  "bin": "./bin/cli.mjs",
+  "author": "Rajesh",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raj3028/create-react-app-starter.git"
+  },
+  "homepage": "https://create-react-app-starter.netlify.app",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "create-react-app-starter",
+    "React CLI",
+    "create-react",
+    "React-js",
+    "cra"
+  ],
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.5.2",
     "axios": "^1.6.8",
     "jwt-decode": "^4.0.0",
     "react": "^18.3.1",
@@ -20,13 +36,15 @@
     "react-spinners": "^0.13.8",
     "react-toastify": "^10.0.5",
     "sass": "^1.77.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint src --fix --ext .js,.jsx ."
   },
   "eslintConfig": {
     "extends": [
