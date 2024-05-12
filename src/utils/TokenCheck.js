@@ -4,6 +4,10 @@ import { useNavigate } from 'react-router';
 const TokenCheck = ({ children }) => {
     const navigate = useNavigate();
 
+    useEffect(() => {
+        checkUserToken();
+    })
+
     const getUserPermissions = async () => {
         try {
             navigate(`/home`)
@@ -19,9 +23,6 @@ const TokenCheck = ({ children }) => {
         }
     }
 
-    useEffect(() => {
-        checkUserToken();
-    }, [])
 
 
     return (
