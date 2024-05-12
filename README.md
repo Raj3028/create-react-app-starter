@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+<h1 align="center">React App Starter</h1>
+<p align="center">
+  <em>Getting Started with <code>npx @raj3028/create-react-app-starter</code>, powered by Rajesh</em>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://www.pepy.tech/projects/readmeai">
+    <img src="https://img.shields.io/npm/v/node?logo=npm&logoColor=white&label=NPM&color=0173b4"
+    alt="npm-version">
+  </a>
+    <a href="https://opensource.org/license/mit/">
+    <img src="https://img.shields.io/github/last-commit/Raj3028/create-react-app-starter/main?logo=git&logoColor=white&label=Last Commit&color=ebc81c"
+    alt="last-commit">
+  </a>
+  <a href="https://opensource.org/license/mit/">
+    <img src="https://img.shields.io/github/repo-size/Raj3028/create-react-app-starter?logo=PyPI&logoColor=white&label=Repo Size&color=0969da"
+    alt="repo-size">
+  </a>
+  <a href="https://opensource.org/license/mit/">
+    <img src="https://img.shields.io/github/license/Raj3028/create-react-app-starter?logo=opensourceinitiative&logoColor=white&label=License&color=36c017"
+    alt="license">
+  </a>
+</p>
 
-## Available Scripts
+<!-- [TABLE OF CONTENTS](https://github.com/eli64s/readme-ai/edit/main/README.md#-features) -->
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Contents</summary>
 
-### `npm start`
+- [📍 Overview](#-overview)
+- [🚀 Getting Started](#-getting-started)
+- [⚙ Installation](#-installations)
+- [👾 Deployment](#-deployment)
+- [🎗 License](#-license)
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📍 Overview
 
-### `npm run build`
+***Objective***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The objective of this CLI tool is to provide developers with a streamlined starting point for web development projects, offering a basic structure that includes essential components such as login and signup pages, along with a rudimentary routing system. By incorporating Tailwind CSS and SCSS, developers can leverage the power of utility-first CSS and enhanced styling capabilities to customize the appearance of their applications efficiently.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS allows developers to rapidly prototype user interfaces by composing styles from a comprehensive utility class library, while SCSS provides the flexibility to define custom styles and organize CSS code more effectively. This combination empowers developers to create visually appealing and responsive web applications without the overhead of setting up these foundational components from scratch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+With a minimalistic setup and pre-configured integration of Tailwind CSS and SCSS, developers can quickly bootstrap their projects and focus on building out the core features of their applications, accelerating the development process and improving productivity.
 
-### `npm run eject`
+***Motivation***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Streamlines documentation creation and maintenance, enhancing developer productivity. This project aims to enable all skill levels, across all domains, to better understand, use, and contribute to open-source software.<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> [!IMPORTANT]
+>
+> <sub>This CLI tool serves as a basic starter file for jumpstarting your projects. It provides a minimalistic setup to help you get started quickly with your development.</sub>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Getting Started
 
-## Learn More
+**System Requirements:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - Node V16.20.2+
+  - Package manager/Container: `Node`, `GIT`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Repository URL or Local Path:**
 
-### Code Splitting
+Make sure to have a repository URL or local directory path ready for the CLI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [**GitHub**](https://github.com/)
+- [**GitLab**](https://gitlab.com/)
+- [**Bitbucket**](https://bitbucket.org/)
+- [**File System**](https://en.wikipedia.org/wiki/File_system)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚙ Installations
 
-### Making a Progressive Web App
+#### Using `npm`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> [![npm](https://img.shields.io/badge/npx-3775A9.svg?style=flat&logo=npm&logoColor=white)](https://docs.npmjs.com/)
+>
+> ```sh
+> -> npx @raj3028/create-react-app-starter
+> 
+> -> Please provide your app name: your_app_name
+> 
+> -> cd your_app_name && npm start
+> ```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👾 Deployment
 
-### Deployment
+Deployment Link : [Link](https://create-react-app-starter.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🎗 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT License][0]
+
+---
+
+## 👊 Acknowledgments
+
+- [Shields.io](https://shields.io/)
+
+<p align="right">
+  <a href="#-overview"><b>Return</b></a>
+</p>
+
+---
+
+[0]: https://github.com/Raj3028/create-react-app-starter/blob/main/LICENSE "🎗 License"
+
